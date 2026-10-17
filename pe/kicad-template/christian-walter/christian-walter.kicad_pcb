@@ -1,0 +1,8042 @@
+(kicad_pcb
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A")
+	(title_block
+		(title "${BOARD_TITLE}")
+		(date "${CURRENT_DATE}")
+		(rev "${REVISION}")
+		(company "Formula Slug")
+		(comment 1 "${NAMES}")
+		(comment 2 "${COMMENT1}")
+		(comment 3 "${COMMENT2}")
+	)
+	(layers
+		(0 "F.Cu" signal)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+	)
+	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(tenting
+			(front yes)
+			(back yes)
+		)
+		(covering
+			(front no)
+			(back no)
+		)
+		(plugging
+			(front no)
+			(back no)
+		)
+		(capping no)
+		(filling no)
+		(pcbplotparams
+			(layerselection 0x00000000_00000000_55555555_5755f5ff)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions no)
+			(usegerberattributes yes)
+			(usegerberadvancedattributes yes)
+			(creategerberjobfile yes)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
+			(svgprecision 4)
+			(plotframeref no)
+			(mode 1)
+			(useauxorigin no)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plot_black_and_white yes)
+			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
+			(subtractmaskfromsilk no)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 1)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(property "BOARD_TITLE" "FS PE Onboarding Project")
+	(property "COMMENT1" "")
+	(property "COMMENT2" "")
+	(property "NAMES" "Christian Walter")
+	(property "REVISION" "[REVISION]")
+	(footprint "0603B103K500CT:CAPC1608X87N"
+		(layer "F.Cu")
+		(uuid "0f2e55e3-8f34-4e5a-bbe5-7b4f1239fd1f")
+		(at 137 98.755 -90)
+		(property "Reference" "C17"
+			(at -2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "280af932-e26e-4b8c-8e9a-20370f35ca33")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22 µF"
+			(at -2 0 0)
+			(layer "F.Fab")
+			(uuid "d497bb7e-5780-4bc8-95ae-0b84f9bd592d")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39babdf0-5183-4b24-aa68-28ebcafdda06")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor GRM 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f824474-1290-401a-9693-1ae45994336d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd1311e4-e9c7-4071-b5ac-532604bb842e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "21402292-1b25-4754-92ed-600437aa77ec")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad3f5804-c615-4cc2-9484-8b6d27fef107")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.37"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "919be40f-dc1f-4146-abdd-3ad81887f422")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0603 Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5796af6-9c6f-4063-9d4b-eb2945621ae0")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cfb8d9d-5200-4890-a0e1-4fc10c988641")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf7d719c-e7b8-439b-98eb-3683d2b3c5ed")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "Jul. 2024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d8c8eaa-b79e-4e49-a84d-589cc1330912")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33421ac7-d9e4-4607-bf24-e257ad63836c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60af643f-e35b-4d91-ba05-27e2164907e9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0603B103K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f8a2c010-db24-41a7-9d88-33833724c302")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock: 12,874"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3de33be1-46cd-4093-84d4-2e1a222ecac7")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2271695-9056-4a59-adfd-ac41fa014fc1")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-13243-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "288991e8-2aad-487b-b11e-9def40cf491b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM187R61A226ME15D/5877406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53b5686c-8c3b-43ba-a906-4efda7123a27")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "44a2ebee-3c02-4e41-896c-c2b4735622ca")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM187R61A226ME15D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "235dda68-b686-4e7f-862c-0634bb6dbd15")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/10e4d719-9a27-4299-8b6f-6d79b04ae3c7")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f1bab559-ca25-40fd-b65b-afdd9f2fde4e")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end -1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e88ebc7a-9b6f-40e5-8b93-912e0035031c")
+		)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "db66bd8a-564b-4195-ab91-0e591833f9b4")
+		)
+		(fp_line
+			(start 1.465 -0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c1ab02d-ad22-4e72-b2cf-1bbf6897668d")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "74f09050-0448-4321-abd1-019a3e6c5a34")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9d5e835b-b204-4531-8f7e-cb4e4bba5835")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bb9d5051-5d28-41c3-8b68-7d20385df7ff")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "807b24d5-04e8-4eac-8356-11ee0e657af7")
+		)
+		(pad "1" smd roundrect
+			(at -0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c5139cd9-8f91-4460-90a8-f82cc5ed2f28")
+		)
+		(pad "2" smd roundrect
+			(at 0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "0801e157-5e5c-42ad-9784-fe62ace8d49c")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "0603B103K500CT:CAPC1608X87N"
+		(layer "F.Cu")
+		(uuid "11a78467-eeb0-412e-8868-2921aee9e8ad")
+		(at 139 98.755 -90)
+		(property "Reference" "C16"
+			(at -2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "db3cc6e9-dd09-47e7-bd6d-5da41a08f7c9")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22 µF"
+			(at -2 0 0)
+			(layer "F.Fab")
+			(uuid "aacd463f-243c-4ebc-8a7d-6d1356af14aa")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ccee578-3787-4dfe-b46e-8db972974b3a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor GRM 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28bb4c36-5748-4333-bef0-624af906ed84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f50d743c-2cc9-4600-a9cc-1f77471eef39")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6b291d0-b77a-4b69-b21c-dc8b34b916c2")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "acb99231-68e5-4fbd-9f73-3cb0fee84bfb")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.37"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e17d627f-c2c8-49c4-9fff-812643cbe81b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0603 Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a03e258-89ab-4080-ae0c-06fc2fb45597")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b5de82e8-fe60-473d-8290-da1576a2f794")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ee051cd-78ca-4110-afb4-ef1b9087aa05")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "Jul. 2024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9d9812c-b0ed-4318-8f43-662f3041b724")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a273ec-6fe5-4263-86f5-f5572ed15c67")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "682f6586-0b5b-4ce1-8b2e-35a02d938985")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0603B103K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11910d4c-582f-4d6e-8cdb-530b1f84ebec")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock: 12,874"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cd99cfe-fcfc-4322-a1d8-5ebae695cf55")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f9643d9-6ece-473b-83a0-437ec3d801d5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-13243-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "145a9f1e-acb0-4e0d-88ce-a585f2b48f81")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM187R61A226ME15D/5877406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b79c378b-9706-4dd3-9b59-1e16a4ee6ea2")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b14f755-171e-42b1-ac1b-023d49a672db")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM187R61A226ME15D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdc04c97-4e01-4f9a-abbb-7eee9d452bbf")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/69c5268f-a251-4d77-82be-88e04d1ff9dc")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a0ea923-8be3-4cf3-8102-9d5710c6295b")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end -1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a0260b64-3838-4b66-a788-1d489c44ea10")
+		)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7ebd6fb3-d893-45ac-89ea-fc6bdaf2746f")
+		)
+		(fp_line
+			(start 1.465 -0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f6234152-79f1-41d9-8ee2-a658f1a1b189")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e9868546-2dc1-4d26-b448-1cf15981e3ac")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "86c38553-aaad-435a-a4f9-cc2ac440cdef")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1637f558-27a5-47f1-8aec-496bab72a2c7")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6727c58a-a88a-412e-9908-832a5ff8ae58")
+		)
+		(pad "1" smd roundrect
+			(at -0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c2ee983e-18fd-40bf-9e26-992c72fab92a")
+		)
+		(pad "2" smd roundrect
+			(at 0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "33c958f3-5c9d-4f5c-abe2-0de9cf9543f6")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "C0603C104K5RACTU:CAPC1608X90"
+		(layer "F.Cu")
+		(uuid "1a1ed9c1-99db-4ce8-a9df-d56612f58fbc")
+		(at 130.5 98.255 180)
+		(descr "<b>CAPACITOR</b>")
+		(property "Reference" "C10"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "84518da6-800a-46b9-a481-235e013e1cb1")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "40c94c7e-7a33-44a5-8b89-9f0869810c8d")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db20019a-28de-4cb0-ad3b-c1088ffc49c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "446a91a8-5ff1-4e0a-bf67-e0cb5994322e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2c37a54d-8be6-4220-ab4b-98401d555ade")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "603-2 KEMET"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d74d337-6af6-4f61-bc8a-feec395a175a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11084e53-01dd-4ef2-a264-72ec1cb0541e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "332438a7-e5e1-4e84-be12-b0f3debe2f70")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2cee5f0a-ae72-4969-a55c-711ce699cc34")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "C0603C104K5RACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97413807-d37e-463d-b45e-42212f73587a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dbc8a91-01c6-4549-a2f2-fb69b9b43195")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c50339c-2776-47b6-9a3f-9ccdfe2442c2")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUTR-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "725a5495-31ab-46ab-91d5-181bcd43cc20")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc5039a5-5823-4fd7-86dd-820dbab6885e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de62791a-fd07-4005-ac5f-9c7f743a7df7")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c396c5e0-0a95-49c5-8300-bcc47bb6e606")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/25f92ccc-6ebc-4e36-8fc9-9fbe5426ea80")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.673 0.783)
+			(end -1.673 0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea67d09f-4507-4705-b597-41a5ff052c32")
+		)
+		(fp_line
+			(start 1.673 -0.783)
+			(end 1.673 0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "57ed5057-b80d-4c4a-97f8-aee6fb7b355e")
+		)
+		(fp_line
+			(start -1.673 0.783)
+			(end -1.673 -0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6f2a5320-72fe-4ca5-a63f-0c88d604d68a")
+		)
+		(fp_line
+			(start -1.673 -0.783)
+			(end 1.673 -0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "44edd9e2-7601-40e1-b5f2-7f378e34ed2c")
+		)
+		(fp_line
+			(start -0.356 0.419)
+			(end 0.356 0.419)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e614855-dd38-453c-8cef-027e86bb8a35")
+		)
+		(fp_line
+			(start -0.356 -0.432)
+			(end 0.356 -0.432)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2a2d4fe6-0ac9-4f96-b907-4b42ce1e982a")
+		)
+		(fp_poly
+			(pts
+				(xy 0.330282 -0.4801) (xy 0.8303 -0.4801) (xy 0.8303 0.470017) (xy 0.330282 0.470017)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "fcdbe705-ee3f-4d9f-a1ff-4889bd4759de")
+		)
+		(fp_poly
+			(pts
+				(xy -0.838275 -0.4801) (xy -0.3381 -0.4801) (xy -0.3381 0.469942) (xy -0.838275 0.469942)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "540e652b-3c1d-44af-b581-2ca80b89043b")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 180)
+			(size 1.1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "94d916df-260d-4c5d-a1a4-40d044ec0ab5")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 180)
+			(size 1.1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "a954919d-6487-47aa-806b-1a9475c98501")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TMK107BBJ106MA-T:CAPC1709X100N"
+		(layer "F.Cu")
+		(uuid "1bc02132-2d57-4b58-b2a4-ac94d31a81a8")
+		(at 130.5 112.255 180)
+		(property "Reference" "C3"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "3d211f8d-4e73-40c3-b2ae-0626bb241c7d")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "a6a4eff3-48db-4f46-9528-e5349d9073fd")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "82eb509a-1a06-4249-a9b8-a63f9c7cf3f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78ccc511-b428-4ae6-91bd-a04446315bb8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4da6068-f14c-4e48-9119-26d4d94ca14e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "1608 Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3d100b5-bd7a-4335-8b89-2c1371ddac62")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b0e8e0a-08c8-4464-8f0f-ffeb55a37661")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9cde0bbc-df05-485b-9e49-ad0ba890623c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "140dc32f-fb64-40bf-a24d-d46c8ce09a5f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64d11cef-7255-460d-b137-61bea055753c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b4fef8d-ab5a-4543-801a-ac7e9f4d8bd2")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "587-6023-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86820da5-c09b-4c82-961b-dff4e994176a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK107BBJ106MA-T/7403921"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6b4aa4cd-7621-436f-9cba-df2c0942eccd")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a71af0d-c38b-4986-b45f-5bf43099b6b3")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb46a3ff-cbb2-4da9-b13b-d384a05f621b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/1d419127-86c1-45f5-9e1b-2dd443904070")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.515 0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "21074828-4288-4130-9b87-057de7255528")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end 1.515 0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d225694-b38c-48e3-b398-0b3df70f836d")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end -1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a71f286d-d6ee-405f-af0d-a0d65ac7f7ce")
+		)
+		(fp_line
+			(start -1.515 -0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67a09bda-ff28-4f76-98ae-b5bff6152f9e")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end 0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "01176265-8aed-404c-9cce-d1a0f9d4bb33")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end -0.9 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0aaabea0-03f4-4693-bb4e-f9bb8dbe91e3")
+		)
+		(fp_line
+			(start 0.9 -0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b72ca7c4-5e1b-4bae-aef2-fdcdaa2a7b81")
+		)
+		(fp_line
+			(start -0.9 0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2f20fd38-8e14-44d5-baa0-f0ca1fa1220b")
+		)
+		(pad "1" smd rect
+			(at -0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "9db57e76-4a4a-488d-af96-bcfe00168db8")
+		)
+		(pad "2" smd rect
+			(at 0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c789ad2c-459c-4190-8d72-89c202fa7de7")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "0603B103K500CT:CAPC1608X87N"
+		(layer "F.Cu")
+		(uuid "288c3df6-a09c-49f1-927e-a2d934222a6a")
+		(at 150.94 98.755 -90)
+		(property "Reference" "C1"
+			(at -2.48 -0.06 0)
+			(layer "F.SilkS")
+			(uuid "655f772b-bc73-40e4-9b06-025e97551442")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22 µF"
+			(at -2.06 -0.06 0)
+			(layer "F.Fab")
+			(uuid "537c4fcc-e8e5-43e5-9682-2f40be8dea3e")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6e30d20-ec28-478e-ba26-c439d4632e78")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor GRM 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e15bd94e-124e-4756-8cb1-92a99de46586")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7cf5dba0-d9cd-40b8-b093-198b7deb0142")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13dd674e-e57d-4cb4-af0a-c5f934db70af")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48fbeb0a-cdf3-43fc-90b2-cf1f8f898922")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.37"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09e861af-3485-4f19-b1d1-ca01c70e2e23")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0603 Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a03c9f8a-9a00-4690-8863-71c8e9b6a0bc")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "998e197f-0ef4-4664-9424-8091383f468a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa01d81f-a9bf-46e0-965a-5b72a53fe594")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "Jul. 2024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed52f62d-d8ee-44ce-840d-b3f7ca8d10c2")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5554efa-574e-4401-b638-c42844e689c6")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "46e670d3-1fca-48c5-a9fa-d7b46030be3d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0603B103K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8bf913a8-fd15-4b39-9e9e-433243d1d32a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock: 12,874"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2419c4a-603c-4094-bb23-da73612762e9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7926f817-0529-46f0-a71b-f9cd2e65e0b7")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-13243-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3bac9f26-1a57-4dc1-8b38-46ace6b6107f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM187R61A226ME15D/5877406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41633643-4b3f-43b7-aef1-06a99b083f9c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ed3b1bf-0b61-4efe-bcae-9c273df61f60")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM187R61A226ME15D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8374486-0bff-449d-891c-b94a1a7145bc")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/744868a0-6112-4862-a8d4-f982ab29ea59")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0221e056-bf11-4ada-a26a-6b99261d9a29")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end -1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "64955c9a-d882-4a44-975e-aa5442dd85a8")
+		)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9ece4cf3-0887-4d04-82e1-bff28f7dc5e6")
+		)
+		(fp_line
+			(start 1.465 -0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e96f60f0-3e18-426a-97e1-908cf1fc38f7")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "5a4820fa-fb6b-4f9f-9669-f3e1f5bb0f6f")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f706ceb5-467e-453c-898e-383f75eba4fc")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "96a10361-9734-45f1-ad70-4f4a6d34ecec")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "93c174ee-1fd9-400e-984e-8d7c27735d95")
+		)
+		(pad "1" smd roundrect
+			(at -0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "09bbd55f-e698-4d00-a759-20bdb549ee71")
+		)
+		(pad "2" smd roundrect
+			(at 0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6c01d7f3-5232-4226-9382-756abd958d52")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "0640CDMCCDS-150MC Mimic:IND_ETQ-P5M470YFK"
+		(layer "F.Cu")
+		(uuid "28feac06-ab57-4d72-a587-b4827f5a412b")
+		(at 145.5 109.255)
+		(property "Reference" "L1"
+			(at -4.418 -5.1564 0)
+			(layer "F.SilkS")
+			(uuid "907674c0-ef94-422c-9d6d-1c101be7521a")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "15 µH"
+			(at 0.4588 5.1564 0)
+			(layer "F.Fab")
+			(uuid "1d1d2b71-cbae-498d-b08a-f8b26a9e96bb")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://products.sumida.com/products/pdf/0640CDMCCDS%20(en).pdf?t=1585068674"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "86aa72b7-07d3-47ff-aaf0-9505d37b1354")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "806c4b0c-966f-4c6d-babe-2651c105f758")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0a9a47f-aaee-46e7-96bb-ad4d8da3ef4b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61bc11b2-c294-458e-83a8-a86119754a3c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a86d898-8266-46b0-8c4b-5954392895f0")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.78"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6cec00fa-92a5-49c1-8d99-86107ed7ed8b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ddf65dd-7011-4357-82dd-4c9d28cee8de")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d6f49bc-087a-40b9-b632-b4ee9550de97")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1af2231-fda4-47bc-bf73-bdea3667ea7f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "N/A"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97cdf0cb-9081-4009-84b6-5935c32fe676")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f72f9a56-7735-429b-9b8a-46a1b05024b5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Purchase-URL" "0"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb2cb249-2945-4152-84c7-81e63d0bc217")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "20,502"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6c9b61e-aeda-4014-a475-d37ac189d191")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Sumida America Components Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1cf2ae2d-7681-498e-9e76-70cfe9c8cd3c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "308-0640CDMCCDS-150MCTR-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d504a4ea-151e-4ea3-9b27-b828c91668f5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/sumida-america-inc/0640CDMCCDS-150MC/11682190"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa056840-7245-4ee2-86d5-6739fd9a87ba")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Sumida America Components Inc."
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7f01a70f-c307-4698-8168-822943aeed94")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "0640CDMCCDS-150MC"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5501d672-344b-4ad7-886a-90d572e7b873")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/e1c4e107-042f-4262-8665-65920aed2925")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -4.25 -4)
+			(end 4.25 -4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "25a311c1-eae1-4c77-920a-310875d7eb98")
+		)
+		(fp_line
+			(start -4.25 4)
+			(end 4.25 4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "353b4177-3d1e-4388-95db-21fffeb5093c")
+		)
+		(fp_line
+			(start -6.45 -4.5)
+			(end -6.45 4.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "64c3508a-4422-4247-8962-c439ecd4e57a")
+		)
+		(fp_line
+			(start -6.45 4.5)
+			(end 6.45 4.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0c75ba09-ce70-4007-aa32-2d0e0d57cf64")
+		)
+		(fp_line
+			(start 6.45 -4.5)
+			(end -6.45 -4.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "47249c62-62d1-4433-a63b-910fe92ec8d3")
+		)
+		(fp_line
+			(start 6.45 4.5)
+			(end 6.45 -4.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a1f4db0-4d34-4972-889c-b8514e9c97db")
+		)
+		(fp_line
+			(start -4.25 -4)
+			(end -4.25 4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2bd9c581-a81b-4f73-8bb2-f1b1fcd67a83")
+		)
+		(fp_line
+			(start -4.25 -4)
+			(end 4.25 -4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "389736d3-d8b8-4f4f-a681-bd562c4b7d34")
+		)
+		(fp_line
+			(start -4.25 4)
+			(end 4.25 4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "318e1fa9-346e-4bf9-a98e-4db888f3442a")
+		)
+		(fp_line
+			(start 4.25 -4)
+			(end 4.25 4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a3f7c5dc-bf3b-40dc-ac69-1f9244604580")
+		)
+		(pad "1" smd rect
+			(at -4.05 0)
+			(size 4.3 4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U1-SW)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6a81da25-78a9-4f7d-b690-062ae6405544")
+		)
+		(pad "2" smd rect
+			(at 4.05 0)
+			(size 4.3 4)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c37fa486-9673-46c2-acd1-d9bd0f21241a")
+		)
+		(zone
+			(layer "F.Cu")
+			(uuid "b6cbabc6-28dd-4b97-9895-1791ad898b8a")
+			(hatch full 0.508)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.01)
+			(keepout
+				(tracks not_allowed)
+				(vias not_allowed)
+				(pads not_allowed)
+				(copperpour not_allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.508)
+				(thermal_bridge_width 0.508)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 140.8 104.755) (xy 140.8 107.255) (xy 143.6 107.255) (xy 143.6 111.255) (xy 140.8 111.255)
+					(xy 140.8 113.755) (xy 150.2 113.755) (xy 150.2 111.255) (xy 147.4 111.255) (xy 147.4 107.255)
+					(xy 150.2 107.255) (xy 150.2 104.755)
+				)
+			)
+		)
+		(zone
+			(layers "F.Cu" "B.Cu")
+			(uuid "c60a2992-81bf-447c-91d7-42e2cae59adc")
+			(hatch full 0.508)
+			(connect_pads
+				(clearance 0)
+			)
+			(min_thickness 0.01)
+			(keepout
+				(tracks allowed)
+				(vias not_allowed)
+				(pads allowed)
+				(copperpour allowed)
+				(footprints allowed)
+			)
+			(placement
+				(enabled no)
+				(sheetname "")
+			)
+			(fill
+				(thermal_gap 0.508)
+				(thermal_bridge_width 0.508)
+				(island_removal_mode 0)
+			)
+			(polygon
+				(pts
+					(xy 140.8 104.755) (xy 140.8 107.255) (xy 143.6 107.255) (xy 143.6 111.255) (xy 140.8 111.255)
+					(xy 140.8 113.755) (xy 150.2 113.755) (xy 150.2 111.255) (xy 147.4 111.255) (xy 147.4 107.255)
+					(xy 150.2 107.255) (xy 150.2 104.755)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TMK107BBJ106MA-T:CAPC1709X100N"
+		(layer "F.Cu")
+		(uuid "343f5df2-51a6-44ce-9e93-6e0bfd07edb5")
+		(at 130.5 114.255 180)
+		(property "Reference" "C2"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "960462ed-b937-40fd-9e55-0ea41bd60578")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "308f7f3f-fafa-43c3-887e-a8014b72ffbf")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a42b3ed9-ebc9-4920-a56a-5102eeccbfa7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e978a987-1873-452a-9f0a-54d05aa3a099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bafc8c14-f5d1-4a5b-a581-08620e0e17b7")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "1608 Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a0ea9da5-aa59-43a1-9677-88c92cf6ea6f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9a828430-caba-4a76-b2de-dba85e62ffa6")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32164d32-c219-4cc6-83ec-08c9dedcaea9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "848997f2-a61e-485e-a509-e18f7dc23f55")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93b79020-6adc-4f31-a868-e55dbfc3d9da")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c201f9cd-c91e-4e34-803f-bd0a2dabc7d0")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "587-6023-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1feecb9c-a6de-4305-903a-d1fe227b3a38")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK107BBJ106MA-T/7403921"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e9697079-9f64-460c-a0a1-53aebde03e78")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b05493c5-06bd-4ef1-8646-f73c9e723c6a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23173b48-031a-4de4-bef7-e14880d6c2e0")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/4e2550a0-7242-4ff7-8368-d591937944d9")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.515 0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2bc0d560-b3ca-4f2e-9164-d00014f444ca")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end 1.515 0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb4c1140-b5fb-4861-ae71-a10293bd1173")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end -1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c40f8943-3d49-40f0-93d9-0dbf2265e1cd")
+		)
+		(fp_line
+			(start -1.515 -0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8f4edea9-2f3d-4979-9e94-c2bf444c5e54")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end 0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "14b70a5f-0fda-45d5-9f51-ca929d9e0102")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end -0.9 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6b1dc3ed-bd8d-4c05-bacc-a49b135e378a")
+		)
+		(fp_line
+			(start 0.9 -0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0d615f3f-523b-4922-851d-a9e796b7495f")
+		)
+		(fp_line
+			(start -0.9 0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "dc3ee900-c712-4777-bf9d-63a18ddce453")
+		)
+		(pad "1" smd rect
+			(at -0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "96724c90-92cc-44f9-86b2-89b0e944c5bf")
+		)
+		(pad "2" smd rect
+			(at 0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "d388b98c-608a-4dc6-8017-b0367b6ec923")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "C0603C104K5RACTU:CAPC1608X90"
+		(layer "F.Cu")
+		(uuid "385aaf0c-604c-400b-98f5-bc03d5bbbc7d")
+		(at 135 98.755 -90)
+		(descr "<b>CAPACITOR</b>")
+		(property "Reference" "C18"
+			(at -2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "5026c75d-0e4e-4d26-aa96-7daffa35786c")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at -2 0.07 0)
+			(layer "F.Fab")
+			(uuid "3aa49729-cc31-4216-8d04-19781ff21f88")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dbe53b93-df24-459b-af4d-839bdb407dd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b30c6241-8c95-4948-9dd0-b10e814e8359")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7d12b6c-c836-49a7-9845-f99f2c32a309")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "603-2 KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b056b48b-9127-4980-b2a1-184c4ed8c0ca")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71d531ac-ffec-4f69-8f46-a7b9ff5fae05")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0fa9a481-43a4-4261-a932-7482010f2f8e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b6f601f-4e3f-4452-a895-5367e133948c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "C0603C104K5RACTU"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b40a008-8744-4594-aff6-a18e8885e178")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f3bca6a6-208d-4153-8f54-f334fa1eee1c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ef2a066-1320-436c-8639-0589f066bdb3")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUTR-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d9f10a4-6a69-4427-af76-b89e55d14bf6")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e73ffc4-ffb3-44c0-b99f-c9a7885bc355")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ccb400b-2fe7-48f2-be6f-0a2e9d3d8aa5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6075b24b-867e-4d72-8d38-dc3c5cbf76bd")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/c4bdcb08-7a08-48c4-8d0e-b85e4cf3bf71")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.673 0.783)
+			(end -1.673 -0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7b8f7e3b-d68f-40d4-868e-ac4617a331e3")
+		)
+		(fp_line
+			(start 1.673 0.783)
+			(end -1.673 0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "75e69569-d5ff-4556-aa5f-81936c200ea8")
+		)
+		(fp_line
+			(start -1.673 -0.783)
+			(end 1.673 -0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e2392057-6bd9-4919-bcaf-7a924ec580c7")
+		)
+		(fp_line
+			(start 1.673 -0.783)
+			(end 1.673 0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67a3502b-7de1-4670-9325-6ecfdb5a302a")
+		)
+		(fp_line
+			(start -0.356 0.419)
+			(end 0.356 0.419)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "137aab33-5a2a-4fde-88b5-cbfcd48ad508")
+		)
+		(fp_line
+			(start -0.356 -0.432)
+			(end 0.356 -0.432)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f8e4f609-142d-473f-a71b-eed096392fbe")
+		)
+		(fp_poly
+			(pts
+				(xy -0.838275 -0.4801) (xy -0.3381 -0.4801) (xy -0.3381 0.469942) (xy -0.838275 0.469942)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "b000c465-57d0-4948-8d13-44a8361bd54e")
+		)
+		(fp_poly
+			(pts
+				(xy 0.330282 -0.4801) (xy 0.8303 -0.4801) (xy 0.8303 0.470017) (xy 0.330282 0.470017)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "160fe08b-c276-41b6-b92a-667cb1be12b4")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 270)
+			(size 1.1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "3842fecc-1160-4d52-ac39-c12cd8a967d5")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 270)
+			(size 1.1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "4c207893-5274-425f-8314-ce02310d1291")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "0603B103K500CT:CAPC1608X87N"
+		(layer "F.Cu")
+		(uuid "3d8dfdde-5e85-4cee-8484-d79304e337ba")
+		(at 143 98.755 -90)
+		(property "Reference" "C14"
+			(at -2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "51e72416-08d3-441e-abc0-7dcc0a039c7e")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22 µF"
+			(at -2 0 0)
+			(layer "F.Fab")
+			(uuid "ab5a7aa4-d01b-4e44-b248-bc7efd4eb78e")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c06277b-44da-4002-bf36-1f683768d6c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor GRM 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae13f4fb-c59c-46e1-8271-aeaee2ca81f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2aa130fb-75d0-403b-9f30-3833980a00c4")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "65e14e6e-b374-421d-aad8-7f9ef72aa922")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a170f025-17fa-4fbf-a82e-9e2ff1bbe7a5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.37"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77e2a8e1-e759-40b9-a22b-5c9133f54d5c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0603 Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ab6a4d6-b521-456f-8e76-64aeba8b47d9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70137174-4be8-4250-8a61-ac68db4623a2")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d755c36c-0c4a-411f-9d02-c75be01f9ccd")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "Jul. 2024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "479d8f95-fee0-435f-8bc3-bd64ca0fc10a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ab90df1-3649-4918-bb48-0ef344882233")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4264b79e-3f53-404f-ae73-6571b3b15846")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0603B103K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d32ff1c9-eb28-48c1-a1fa-2b767b37220e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock: 12,874"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1fbb97a-3342-4342-8958-72b04c2a667c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e9410fc-47d0-4d07-958e-2a739ac7902e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-13243-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bec46bc-d60d-46e3-9bf8-3a042f197b3e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM187R61A226ME15D/5877406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d55b4721-3898-4f65-844c-5595fcf3c939")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "280cd24c-9e4f-4b00-a36d-b2c4c411d5f4")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM187R61A226ME15D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3674d115-041d-45bd-8046-64d8d39bdb3b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/fe230b3b-62dd-4778-89a5-6e301245413a")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "26a04a18-2544-44e6-be50-e11713a6d821")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end -1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "865f2d20-118f-49c0-84b8-50369fdd9ea9")
+		)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9fd4b50b-b859-421d-bbbc-3249ad6db60d")
+		)
+		(fp_line
+			(start 1.465 -0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be38e04d-0a25-4e70-b20d-0eabd02a9c1c")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b5709632-3ed4-4c0b-b607-cec63d72258d")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7ad3a9ca-d818-42f3-bbf7-6bedf8101975")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "46192cc9-2b65-450e-b310-43ae86f1cb7d")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "36737ed8-5356-456a-bfb3-168c1bc0d349")
+		)
+		(pad "1" smd roundrect
+			(at -0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "082e5b32-aedd-41b1-8b0b-c0739485562e")
+		)
+		(pad "2" smd roundrect
+			(at 0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "2eaa8569-b52c-4b94-950c-9b3629743dd5")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "C0603C104K5RACTU:CAPC1608X90"
+		(layer "F.Cu")
+		(uuid "50231286-d2eb-42ae-8537-108ff4d3d881")
+		(at 138 104.755 90)
+		(descr "<b>CAPACITOR</b>")
+		(property "Reference" "C19"
+			(at 3 0.5 180)
+			(layer "F.SilkS")
+			(uuid "4c6c73d5-fc0e-49e2-bb74-6c31f7fa67b1")
+			(effects
+				(font
+					(size 0.473287 0.473287)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "0.1 µF"
+			(at 2.5 0.5 180)
+			(layer "F.Fab")
+			(uuid "e2a75b24-5acd-4180-aed7-17a03cc54461")
+			(effects
+				(font
+					(size 0.472882 0.472882)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1002_X7R_SMD"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b74a621-60bc-4cb8-981a-dd98ba0381a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a4407fa-ac2b-44d2-8246-f517204568c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "386608a7-c7b2-44f2-bcd3-1cb3583a516d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "603-2 KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05da2149-581e-4b27-b8e0-62ebf6963e43")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a20a9058-ae67-4e76-af5b-30e461725326")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=eda"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2b2149e-7411-4783-a751-3051896cf3fa")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/C0603C104K5RACTU/Kemet/view-part/?ref=snap"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2d90b98-798d-4ccc-9fdd-77814bed6457")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "C0603C104K5RACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a90010e-5f45-49dc-9ddf-6b31b119c83c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e853a63d-279a-41a4-9133-a01092db240e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbd25dbc-d65f-432d-bef0-e06191aeb575")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "399-C0603C104K5RACTUTR-ND"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d51dee2-bfcf-41b4-9c59-17b42bdc6816")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/kemet/C0603C104K5RACTU/1465594"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31c64415-48e4-485f-8964-d48fa2171180")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09201ad4-91b7-47ce-a72a-ea2b904205bc")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C0603C104K5RACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "239367c9-215d-49b4-a5b4-46a0147574dd")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/0c39a93b-30ec-4cc9-add8-1b43765db36c")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.673 -0.783)
+			(end 1.673 0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7f422163-27ea-47a9-a5d1-242d4aa52e8b")
+		)
+		(fp_line
+			(start -1.673 -0.783)
+			(end 1.673 -0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7cc10d6f-f0c7-4567-928f-21685bc8f3f9")
+		)
+		(fp_line
+			(start 1.673 0.783)
+			(end -1.673 0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "32ed34ee-fc66-4dcb-828e-959d3f54bb38")
+		)
+		(fp_line
+			(start -1.673 0.783)
+			(end -1.673 -0.783)
+			(stroke
+				(width 0.0508)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d6e6dbce-3d08-48c2-bbe2-d07f913a3281")
+		)
+		(fp_line
+			(start -0.356 -0.432)
+			(end 0.356 -0.432)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "be36f99b-5450-49b4-a1dd-e1862e59b2ec")
+		)
+		(fp_line
+			(start -0.356 0.419)
+			(end 0.356 0.419)
+			(stroke
+				(width 0.1016)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "212ad250-f7d0-436e-abb2-c5e918989b13")
+		)
+		(fp_poly
+			(pts
+				(xy 0.330282 -0.4801) (xy 0.8303 -0.4801) (xy 0.8303 0.470017) (xy 0.330282 0.470017)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "e63533e6-d546-4513-ad09-685c23111d0c")
+		)
+		(fp_poly
+			(pts
+				(xy -0.838275 -0.4801) (xy -0.3381 -0.4801) (xy -0.3381 0.469942) (xy -0.838275 0.469942)
+			)
+			(stroke
+				(width 0.01)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "75ae1e5d-fdaf-4d85-9f88-31d6f39c4666")
+		)
+		(pad "1" smd rect
+			(at -0.85 0 90)
+			(size 1.1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U1-BOOT)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "61401183-3742-47a5-b359-836c60f3639d")
+		)
+		(pad "2" smd rect
+			(at 0.85 0 90)
+			(size 1.1 1)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "Net-(U1-SW)")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "45a3e0bb-5e12-4a16-a189-a25a24f9259b")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TMK107BBJ106MA-T:CAPC1709X100N"
+		(layer "F.Cu")
+		(uuid "59e6c604-a354-466e-92bd-f53a36ca9407")
+		(at 130.5 108.255 180)
+		(property "Reference" "C5"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "171a59e4-5e8a-4957-aa7a-a9bfcdc8e03b")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "4d0ede65-765a-4e1e-8cc4-0afcf3018caa")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "397b080a-b40c-4b25-b29c-091fa30f7b0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a545aa5e-e56a-4d05-9e70-b1da8b2932ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "609d4227-1352-444d-ba04-4a00fbbe263f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "1608 Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3f0f3e0b-a7e2-41de-93df-9e044014e7f9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f94d5ebe-5fd6-4c1c-b0e4-d75c79f7d0fc")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de3ddda6-34d9-4a02-9194-e9fcb88ff7b9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e36ee81-1d70-415c-83a0-a73d368c0550")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2ce1dc9-8705-4fff-b079-13a33a6ec1b6")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b3e7a57-22cb-47bb-9ce8-e4a07eb541a9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "587-6023-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6da2e281-daab-4198-a1fe-3883c842024a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK107BBJ106MA-T/7403921"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b1e026d4-fd48-4ac4-b839-ac9743793ebb")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48985b74-a798-4a6b-a13c-af21789d515e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "caf34afa-675e-40a0-bafe-1dd78c5634a5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/fba8c2e9-045e-468b-8872-d82e9dbaa8e3")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.515 0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d38e5796-2645-422f-a81d-ac7287f8bbe7")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end 1.515 0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0afad499-a624-441a-99ed-10fc76e8071a")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end -1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14047e86-0177-416b-91df-b625bb985e7b")
+		)
+		(fp_line
+			(start -1.515 -0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9cbf1c21-71fb-4c12-9780-5993b04ef0b8")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end 0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7fd4bea2-358c-45cb-b6df-5e00236aed0c")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end -0.9 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "edf28056-bf5b-4ebe-b651-9ccf2f6921ca")
+		)
+		(fp_line
+			(start 0.9 -0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "234cd9e5-9ca9-4111-b597-7ef8c288fb3f")
+		)
+		(fp_line
+			(start -0.9 0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a4d34de2-daa2-4c4a-bbf0-50a3e5105012")
+		)
+		(pad "1" smd rect
+			(at -0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "41b6093a-62d9-47b1-88bc-b8e75d3b7eee")
+		)
+		(pad "2" smd rect
+			(at 0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "420d387b-cc26-4d4c-9fb9-1c678c292162")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "0603B103K500CT:CAPC1608X87N"
+		(layer "F.Cu")
+		(uuid "6cb76e1c-5fa4-4064-8094-5c2b9b3c0918")
+		(at 147 98.755 -90)
+		(property "Reference" "C12"
+			(at -2.46 0 0)
+			(layer "F.SilkS")
+			(uuid "bd622a96-83c5-4f6d-b38d-e77ed6b043e8")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22 µF"
+			(at -2 0 0)
+			(layer "F.Fab")
+			(uuid "5e3ee9b7-5fb8-4499-af37-cdde531541b3")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e078bee-55fb-4de1-87f9-eafb27ec386f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor GRM 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6ab2215-c4a4-4a88-971b-417faa6b2932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "683dd27c-ab8f-4630-a749-c8db5666538b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df781b56-1a06-45e2-98af-3a2e25666933")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c39200ce-ec2a-4374-a5a6-b6345852d41f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.37"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8af06f9c-f1c8-4a58-99fc-9468f45a6011")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0603 Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa4a00b2-6d70-4e4f-a6a9-161f75ac011c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9433bab-5013-43e7-ba2e-e3388d4ee8be")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48af4e2a-84aa-4648-aa4f-1dbed50e94b8")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "Jul. 2024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d761c796-a4ce-4925-aebd-e2aead1cd67a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f33d04d5-ae4a-4b3e-b315-1bdd99f3483c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "08984954-ad77-4dd8-98a3-9fe93d54893b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0603B103K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9bf6e35-d668-46ab-9097-4054b1351e38")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock: 12,874"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a02aab4-1624-457b-9b21-0e18e9e929fd")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "820dfacb-a7cf-45fc-abed-13974d886817")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-13243-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ec634a7-51e4-45ea-bf87-369a8d5a815d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM187R61A226ME15D/5877406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a6b1916-5142-45ee-a41a-cd870416dcdb")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f49eafbe-c4b0-4bf4-a293-883eae26b86c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM187R61A226ME15D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db6d348c-e24d-4a12-81ac-4039aa3db2aa")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/1f58188a-c925-44b6-b82a-12daae9e8e72")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "664771cd-a513-45e6-823f-da8c21cfa0c1")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end -1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "6ccfec8f-4553-4ea9-9067-eb60c012688e")
+		)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4a38348e-7786-4733-801e-ce6ddcfc4b8b")
+		)
+		(fp_line
+			(start 1.465 -0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "11c2a48a-583a-46eb-8ad1-2dcc71c25cf2")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6ba94fbc-71ee-49b7-9929-16e1d305fd51")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "70878534-692e-441c-925b-4cff45f425a2")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1e091d75-ec40-494d-84f3-28c5f0398940")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6317ff59-a054-467f-a3e5-c5f722aa339b")
+		)
+		(pad "1" smd roundrect
+			(at -0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "07c591e4-e56f-42e1-9c51-9d9779c4c5fa")
+		)
+		(pad "2" smd roundrect
+			(at 0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "293110d3-86a8-42a4-8409-5646e7ef2c51")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "0603B103K500CT:CAPC1608X87N"
+		(layer "F.Cu")
+		(uuid "73f573ee-3c68-4ee5-9972-141d3607d2cb")
+		(at 149 98.755 -90)
+		(property "Reference" "C11"
+			(at -2.44 0 0)
+			(layer "F.SilkS")
+			(uuid "ab0a67f1-fd26-43da-9e52-ab70e0346248")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22 µF"
+			(at -2 0 0)
+			(layer "F.Fab")
+			(uuid "4c13cafd-1d1e-47aa-b306-fd1b457ff302")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a133076d-57d3-40b3-b1f6-33e9dc9405bf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor GRM 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75fac044-960d-4503-9ef3-29e3b65ff90b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "690b8890-d451-4417-a0d4-4b7d32d443ac")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9f6d6271-8c28-4dcc-83a1-ed40c1dac630")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "540bddbf-9f83-4b00-93cb-82241c137125")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.37"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2a20394-e8a2-4c04-bf17-8f88edaf3100")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0603 Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bbdc7a40-7e90-40cc-a159-7bbcf7953c8a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78320542-d761-4b88-9589-870178247f5d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfec73f8-d225-4e58-b7e0-555a8a233851")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "Jul. 2024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e0845ac-0392-43bd-ad16-b92b3a612100")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e288d63-2c3e-4ae6-ae3b-66b234901354")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2f3747a5-6fff-4d6b-addb-a0ad706107f3")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0603B103K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79ed5847-2f82-425c-81b2-758f5c41d1e2")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock: 12,874"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f2090d84-9bf3-4326-af0e-71f7ae4846dd")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "626a3090-de3f-4a92-9ed6-c5c63dbab7b4")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-13243-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "69c83452-a51d-47f9-ad07-471d7060687b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM187R61A226ME15D/5877406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2667395b-d2d7-4d13-b7b3-0c971ccee158")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce4d8982-4459-4ba7-973b-da0dd04969d3")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM187R61A226ME15D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc3df1b6-0311-455f-b1df-ed1f71dc906a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/3389180e-24a4-4629-b733-652fd2a34e13")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b987405a-e001-4d39-ba97-ef515fed4d77")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end -1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8d86f782-a44e-4370-ad8e-929c129596a1")
+		)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "378c2e33-3683-4044-aa3c-8c42a753cf4c")
+		)
+		(fp_line
+			(start 1.465 -0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "176e08e4-7048-425c-a32d-d4becb936136")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "77a35864-53d4-497a-8d37-0ec4294bad6e")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0f6cf567-fc34-4d3c-9eda-7a1e6e3165ff")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ba8ef689-b8d4-438f-9707-ef5827ea3604")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "59709b64-f7fa-43ef-b278-c2dd449ed0db")
+		)
+		(pad "1" smd roundrect
+			(at -0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "af9b737d-1140-44b0-8b15-f3aac460e5df")
+		)
+		(pad "2" smd roundrect
+			(at 0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "c09988c1-faac-4364-818b-a2fa7853b8a4")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "0603B103K500CT:CAPC1608X87N"
+		(layer "F.Cu")
+		(uuid "7de6eb8a-a0dc-4f22-a84a-a1161dea110e")
+		(at 145 98.755 -90)
+		(property "Reference" "C13"
+			(at -2.48 0 0)
+			(layer "F.SilkS")
+			(uuid "d18d7550-c4fd-4ef3-9ad9-439fceece156")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22 µF"
+			(at -2 0 0)
+			(layer "F.Fab")
+			(uuid "1f3472d4-0197-44c8-aa69-67cdcc263858")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c9f3ae2-ad02-4f9c-9072-94b55859001d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor GRM 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f124e223-09a6-41b6-ada5-5b314da8ed79")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81fb9099-1d0a-406a-9a76-01f99d20444e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d491631-14a5-462b-8fa0-3d12b9247e50")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0234359a-e247-4a24-8b9b-8985e0bb986c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.37"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f143d326-e777-484c-8a34-51a22371044d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0603 Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9a8222e-9230-4609-a017-2c45252f8462")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffbf4d35-7e2c-479f-b825-ade5988a2b88")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c319298-f31f-42cc-8481-f41fc42928c5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "Jul. 2024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "610fd814-6e81-4f14-9fe5-49e0bf53314e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c4e4289-68d7-4931-a3a6-84f692efde52")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb74ef18-c8f4-4f21-892a-8553d29766dc")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0603B103K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "29890fd9-0a80-431a-a6ec-280c647c01e5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock: 12,874"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c8efc76-d84d-4a48-97a9-65f65c4caa38")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8801d88-d730-4c04-aae0-ea121d0cb0cf")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-13243-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b0f218d-467c-4a65-a052-b45035be6b4f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM187R61A226ME15D/5877406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "366a292b-55a8-4277-92f1-d9257bd64eb6")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dd20c06-8fea-42d3-9162-ee538f915059")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM187R61A226ME15D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f0e390b-9ac1-44bd-abbf-0d8c08f9286d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/26e8b572-fdf5-4f9c-9830-ea5e98976bfa")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "88c912a4-d405-48fb-ab5d-c6171a68699c")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end -1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dc2c76fa-3bbe-4c31-a7a1-e5df4b45cf78")
+		)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "91da8541-42da-451d-abfe-3de6d2793d13")
+		)
+		(fp_line
+			(start 1.465 -0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fba9728c-32f4-44f1-9442-a5f56f4af321")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "9f63eeb2-15db-4d82-8b28-5f848a70a411")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "f5c1e30c-c76e-4807-8f2d-d388f6685df1")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "95795762-ed85-4041-bbc6-a7e779803975")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "914a140e-30d4-4868-8dbe-5136d4f0ef44")
+		)
+		(pad "1" smd roundrect
+			(at -0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "f685ed19-4410-4c46-b6ac-289435879cde")
+		)
+		(pad "2" smd roundrect
+			(at 0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "6544d3e9-dddd-406d-82af-a67bb2c3999a")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TMK107BBJ106MA-T:CAPC1709X100N"
+		(layer "F.Cu")
+		(uuid "82effaac-9958-4dc4-a0a0-da8d789ed51b")
+		(at 130.5 104.255 180)
+		(property "Reference" "C7"
+			(at 2.5 -0.1 0)
+			(layer "F.SilkS")
+			(uuid "e7a85a2b-986b-4043-ac71-9d73c6b83c09")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "692ca589-fa09-41cb-8eb0-6dbb70a15f63")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a11d4c1e-02ac-4370-8fcc-8e86480866fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dd21587f-7731-4c61-93f6-6d6a1b5b4a67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "099c91aa-fded-4a86-b4a6-41f391c359c1")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "1608 Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cb434cd1-b7a6-436d-81ed-4472d4d00978")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a8b7470-06e3-4b33-8daa-23276c5215b6")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d01640d-89d0-4cd0-bf99-b183ebd73757")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a257162-3781-4e91-9a8e-589665f83a22")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c578320c-b89f-48db-816c-e35529234302")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59ec16dc-f6ad-461a-9b5e-6cae2aab9420")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "587-6023-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7a952a5-af7b-4430-a0dc-b0389222b203")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK107BBJ106MA-T/7403921"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "67698c23-035a-48ad-9dc0-9fe712e9c92b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78ce60fb-1027-4a0c-920f-b8d117ab43c0")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2762eb67-f78a-44a3-a3e2-b248c6e24c38")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/33cc8ace-0438-4de0-a2f4-80597e231823")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.515 0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "67ef3252-230e-4dbf-ac37-e7cf5584a04e")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end 1.515 0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "36349649-69a4-4779-adf4-8db6e7b1b3b8")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end -1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b92eaaf0-8730-4956-bd08-8ead647d3c2c")
+		)
+		(fp_line
+			(start -1.515 -0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7bab9dcb-68fa-4ee0-8308-8d74e4cebb51")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end 0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fe17ecc9-3af7-474d-b0cf-bd604e4b8aeb")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end -0.9 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e4cd2613-ddb6-4f5e-89ec-4a41c9dfcd8d")
+		)
+		(fp_line
+			(start 0.9 -0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "fd28bba9-29d3-4c3a-ba11-1d930f8fd979")
+		)
+		(fp_line
+			(start -0.9 0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "20ec006b-d830-407c-b72d-664b943d8d18")
+		)
+		(pad "1" smd rect
+			(at -0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "bf1bf2a2-00ca-4296-a54d-1fed545685bc")
+		)
+		(pad "2" smd rect
+			(at 0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "3cb083a9-3625-4512-8675-45147b91a1b2")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TMK107BBJ106MA-T:CAPC1709X100N"
+		(layer "F.Cu")
+		(uuid "b03c7855-0522-4137-8233-6345791fd068")
+		(at 130.5 100.255 180)
+		(property "Reference" "C9"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "54566337-9d44-4d5c-beae-eb6a565932a2")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "433363f5-b55a-4d8a-96d9-320b0e991390")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e0cbe5ac-24b3-4a92-8401-288bcd2d8ddf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0bc4f8a0-3a18-4c33-97de-045ad9aa31be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9dafb47f-b9c9-472d-a7c9-bb1afb6aece8")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "1608 Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "526c3af2-9c7e-4626-aa5a-248600c7e2b8")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b824e4f6-576a-421b-8a2d-a77fb9aba119")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f0a30b7-dd92-43b2-b108-9789fd50e954")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d07fc467-d3ed-4cc9-8013-7486d3f029a7")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66d6b3ad-fef4-44d0-8c93-14ece50a4a06")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "300b4cf3-fc85-4162-974e-0581765ba5ff")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "587-6023-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed633ca3-32a2-43e5-9d45-9ecac943e3d9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK107BBJ106MA-T/7403921"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "03f9bad2-71b9-4f70-a17f-5127b4deb04d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "71fcc45c-d2ae-417b-925d-d4cc23ebd637")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efada1e6-60b2-436f-89f1-f1002937e703")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/332ae1b9-a8cb-47fe-aa54-c6338e0fcdd1")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.515 0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "95f1c128-8303-496a-9f1c-3ef4856aaef9")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end 1.515 0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9a611429-da4a-41e1-8b54-e73d128c61f7")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end -1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e901e5d1-6cdc-4e6f-b9c8-5ee68cc31726")
+		)
+		(fp_line
+			(start -1.515 -0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c31bc243-47d7-4bae-842f-1dc514144bfa")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end 0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7b22d825-514e-475e-8ab0-8fa4d7ff4fa5")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end -0.9 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "92648b5d-d6c1-4d14-816a-d716f1e9b115")
+		)
+		(fp_line
+			(start 0.9 -0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6c5a7987-51c7-485c-a731-6abae0ece920")
+		)
+		(fp_line
+			(start -0.9 0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8b4139db-e73c-4db2-bbd9-7ec1d8f80833")
+		)
+		(pad "1" smd rect
+			(at -0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "11a164f1-777f-4404-ad96-1e7dee0a20f7")
+		)
+		(pad "2" smd rect
+			(at 0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "adfe47bc-b782-4926-9446-b3db6c541e5d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TMK107BBJ106MA-T:CAPC1709X100N"
+		(layer "F.Cu")
+		(uuid "d807f4d3-3850-4224-a7c9-bdf072bdd7df")
+		(at 130.5 102.255 180)
+		(property "Reference" "C8"
+			(at 2.5 0.02 0)
+			(layer "F.SilkS")
+			(uuid "ec09ea7b-eac3-4990-939e-98e2a68924d9")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "528b5bbb-b740-4f30-b815-1dedaa5e057f")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "854d2ad7-3d23-4420-9b8b-83b56714fc84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4aa467c1-6e92-4f59-8080-f41975b5f8d7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51af3f20-dacc-4c69-b5ae-d2e7c4626de0")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "1608 Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "479dacba-a39a-4641-bc71-106b1e898568")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2ac1840d-35d5-4a64-8a58-99e9cf6a72ae")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0da4b13-814f-423b-bd41-26bd27f3a466")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd164ee7-e3f0-4a21-875a-2d88e0e57966")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad11d416-0a9e-470a-b5da-fc9bbcec4be8")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c27f82ec-c41f-4043-9b54-a6abe970c91a")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "587-6023-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5dcbce67-6cb9-4a1a-96b3-d49a37b7b592")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK107BBJ106MA-T/7403921"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c770c8d-feba-4115-85da-92348651e94e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c1a06a3-7d93-4e48-ab79-3574ff55349f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d753c10f-2d5f-47a6-bca6-f9d7d833c9e2")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/7d7e80cb-3ab7-4c18-92a0-36cde7d3620d")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.515 0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "02ac8faf-d033-4f68-8a7d-2adfe6c5aa60")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end 1.515 0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "92d3b1b7-2e14-479c-9248-b2a3cb7ee038")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end -1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d04639a2-3776-4107-b3b9-407462a110d9")
+		)
+		(fp_line
+			(start -1.515 -0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9426dbb6-f667-4953-81c0-ca49eed6a689")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end 0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b3c586a4-6a02-4e58-a62d-f6383d35b50d")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end -0.9 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "940b1823-42f7-4395-a1bc-995bba12a3f5")
+		)
+		(fp_line
+			(start 0.9 -0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5c097d3-783c-4b19-9f7b-cb178e6825c9")
+		)
+		(fp_line
+			(start -0.9 0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "75815959-6659-4f40-830a-13e51c18b536")
+		)
+		(pad "1" smd rect
+			(at -0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "3319298d-0e7c-4c83-b9f9-b21e25a9974e")
+		)
+		(pad "2" smd rect
+			(at 0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1d056601-9871-46a8-b508-8edcdbc56311")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TMK107BBJ106MA-T:CAPC1709X100N"
+		(layer "F.Cu")
+		(uuid "dc86732f-1ef0-4450-965e-d30566ab8c68")
+		(at 130.5 110.255 180)
+		(property "Reference" "C4"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "44240f1f-b190-4cf5-8a20-9dbddfae24dd")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "1b3575d9-86be-4556-a70c-ad5957cbceef")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "adc36001-fadd-46f6-8de8-b66a9f86be4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "204976de-f8c7-45d5-83dd-ca9f4401e463")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed2eed9b-bd2a-47e6-9c6d-17b257c1ec7e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "1608 Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "337052ab-3e36-4727-94ce-3ab74cec68b8")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "92325331-0746-4f53-9c84-cf6ce46f7977")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3078313d-15bc-4fc0-b736-a37730eabe58")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3975f0d-8f1f-4349-a772-1b50f5f5e1bf")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "701314f3-e194-49c0-926f-766c94884144")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0013b94-f62f-49bd-8c18-3f2b124d2bfc")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "587-6023-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3fa1d351-33ff-476a-aacf-76f9e8a86ef5")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK107BBJ106MA-T/7403921"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93146ca4-c387-44c7-a8f4-34b674421852")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a500e708-f417-4cf8-b328-4480b289baae")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2fae2d7-1328-4fff-9792-c492329f3085")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/d22d31ee-398c-442e-9787-43d897121f8d")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.515 0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cd0d8ba6-8088-4c6a-8e77-84429419eade")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end 1.515 0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "48d72749-38d0-4fee-8345-e6d029c861cc")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end -1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8e35d277-4f88-4fc8-b6c4-6264c912c95a")
+		)
+		(fp_line
+			(start -1.515 -0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0c84cdf0-379a-4379-8f06-ad439d0b57e0")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end 0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "646c2567-4fd5-4cb3-9ebc-60159d76c08f")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end -0.9 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "bbd8159a-9004-45ea-b2df-b2906209dc5b")
+		)
+		(fp_line
+			(start 0.9 -0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e5a187a4-e84d-44eb-944a-4a9bac19e76f")
+		)
+		(fp_line
+			(start -0.9 0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "b78afa9f-fcea-49a7-9c63-52eaa5cc0b87")
+		)
+		(pad "1" smd rect
+			(at -0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "ec721128-d1e3-4f82-88cf-e7f05a340ffd")
+		)
+		(pad "2" smd rect
+			(at 0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "1a4ed645-2aa5-41dc-a337-7a6b2e691f68")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "TMK107BBJ106MA-T:CAPC1709X100N"
+		(layer "F.Cu")
+		(uuid "e6e718cf-dd21-4174-8a2c-4032228a9cd7")
+		(at 130.5 106.255 180)
+		(property "Reference" "C6"
+			(at 2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "ba05000c-76d0-45da-bdac-bb05f3a10bc7")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "10 µF"
+			(at 2.5 -0.5 0)
+			(layer "F.Fab")
+			(uuid "d4d99b64-d507-4e86-8c87-8b0221e0fee3")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "91169c8e-8f26-48e3-9e0d-41f3288b4636")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9a2c91d-bb2c-4ff0-91fd-0cc1705fe54c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34cdaaeb-5c24-4eef-bd82-d43b58cdd884")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "1608 Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49712a7c-e7da-4cdc-83dd-c7e6265714f8")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "None"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "780f5a6b-5ad0-4982-9032-ff2fdd45d298")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=snap"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d137206-5aab-4bbc-a6d5-67677beac6ff")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1998ed50-b638-4dda-8694-6799790e2e79")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94b1f633-f62a-4118-9ca5-3d0b4ddbb76e")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/TMK107BBJ106MA-T/Taiyo+Yuden/view-part/?ref=eda"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b1b26d2-5485-46db-8e3d-9f50ad24009c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "587-6023-2-ND"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8181b493-ec52-4d47-ba1a-f18ec3937ff0")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/taiyo-yuden/TMK107BBJ106MA-T/7403921"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad300f3b-042e-4944-a2a8-00c4b5f31722")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Taiyo Yuden"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d54c5a1-d3b8-4b8a-bab0-8e698eab84ce")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TMK107BBJ106MA-T"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aab72a6-2641-417e-b1c9-03eacb183f0c")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/ca2b50a1-9288-43c3-bc2b-7ba18d7ece33")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start 1.515 0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1c1d1d8a-e734-4331-969d-b8e479c47110")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end 1.515 0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7f22141d-07f8-4fdf-af01-f9bc3aa3390b")
+		)
+		(fp_line
+			(start -1.515 0.765)
+			(end -1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be1441eb-1052-4ead-ad6a-1bdb7795c195")
+		)
+		(fp_line
+			(start -1.515 -0.765)
+			(end 1.515 -0.765)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f9b8c88a-745f-4ae3-b0a6-2b42e9f69684")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end 0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "91a15d91-e280-4dd5-b4a8-b2ab20238f7e")
+		)
+		(fp_line
+			(start 0.9 0.5)
+			(end -0.9 0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "db03aabf-d49f-4c27-9f29-9cc54e71afae")
+		)
+		(fp_line
+			(start 0.9 -0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ba613657-339c-4caf-ba24-eb44c01ac581")
+		)
+		(fp_line
+			(start -0.9 0.5)
+			(end -0.9 -0.5)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "661fa71b-dcac-4b8a-a17f-5f556da6cc11")
+		)
+		(pad "1" smd rect
+			(at -0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "+12V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "bd85ad27-2549-418e-a266-633a3ee09ffd")
+		)
+		(pad "2" smd rect
+			(at 0.788 0 180)
+			(size 0.95 1.03)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "4c1050b2-3fc4-4a19-a6a0-360f80fb98f3")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "0603B103K500CT:CAPC1608X87N"
+		(layer "F.Cu")
+		(uuid "f2b27f78-6f2f-44cf-a363-314643158dc0")
+		(at 141 98.755 -90)
+		(property "Reference" "C15"
+			(at -2.5 0 0)
+			(layer "F.SilkS")
+			(uuid "498675b7-b9be-4983-8854-acc38d49afe5")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "22 µF"
+			(at -2 0 0)
+			(layer "F.Fab")
+			(uuid "a52b34ca-f4bc-41b5-964d-bc11b9c4757b")
+			(effects
+				(font
+					(size 0.393701 0.393701)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/8942/490_Chip_Multilayer_CAT2021_MLCC.pdf"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "164c380d-eb54-4fe9-ac44-9ff1e83bc7c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "22 µF ±20% 10V Ceramic Capacitor GRM 0603 (1608 Metric)"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c08c494e-b0db-43f9-a94a-c5db98a6b866")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5cb5d5e1-4212-4c28-9ed4-b4700cdce330")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.87mm"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "788308df-7373-49cf-83a2-517700352587")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "CREATOR" "ASHISH"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b48e0baf-5d96-4379-929d-a14196d0b310")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Price" "$0.37"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "38a99b5f-f860-4d7d-9cbb-b2b3a21b9561")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Package" "0603 Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7fd5e9f8-31cf-4e1d-8b8a-87d46cd6f102")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=eda"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dccb6cf5-ffc6-4587-8f68-a1f9866bdea9")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b585f788-e6dd-4637-b3fb-cc385c85f258")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "PARTREV" "Jul. 2024"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f97d3267-524c-439b-8f72-01bcc5a6b415")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7a7b9e1-e966-465d-a718-fb60c80be1a4")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/0603B103K500CT/Walsin+Technologies/view-part/?ref=snap"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ee6aebb7-6542-42ea-925a-97b0ac41db74")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MP" "0603B103K500CT"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eae03ff-747b-4363-8eee-1e46e804c172")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Availability" "In Stock: 12,874"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25bc43a0-ff65-4241-b185-87d4b3127562")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3893dfeb-0e90-47ce-8f81-e60e830f8793")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey Part Number" "490-13243-2-ND"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eef5f87e-4fbb-40c0-b387-6c502acc963f")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/murata-electronics/GRM187R61A226ME15D/5877406"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "19cb7d74-e9cb-41cf-afb2-f5e4b1012042")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e790512-d1e4-4688-acc5-7a59160cca5b")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "GRM187R61A226ME15D"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2cab44c-c2b8-4b52-a284-c316f2d1a313")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(path "/3ef3f0ce-6bf5-459b-81ed-3edc23747498")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -1.465 0.715)
+			(end -1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "14838c51-ab81-45cc-a01e-76f868e915d1")
+		)
+		(fp_line
+			(start 1.465 0.715)
+			(end -1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "bfb607d3-844b-4c1d-83aa-6c36cefce6d9")
+		)
+		(fp_line
+			(start -1.465 -0.715)
+			(end 1.465 -0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fd02a800-1679-431e-9c0b-4b50ac840306")
+		)
+		(fp_line
+			(start 1.465 -0.715)
+			(end 1.465 0.715)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4d9653a1-dd93-4195-82af-9359354664b2")
+		)
+		(fp_line
+			(start -0.8 0.4)
+			(end -0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "751c5a1e-fd87-4b24-aaa7-81612ccac93f")
+		)
+		(fp_line
+			(start 0.8 0.4)
+			(end -0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "06d2b540-50a8-4e17-a135-85e2b698b890")
+		)
+		(fp_line
+			(start -0.8 -0.4)
+			(end 0.8 -0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "35cfee12-a56e-4df0-b657-15486bb3a36b")
+		)
+		(fp_line
+			(start 0.8 -0.4)
+			(end 0.8 0.4)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "942ca365-7f5b-4dc4-b26c-2fe8c1059a42")
+		)
+		(pad "1" smd roundrect
+			(at -0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "GND")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "5466431a-2bb8-4c6e-bfa8-5db1dcaa8bd1")
+		)
+		(pad "2" smd roundrect
+			(at 0.745 0 270)
+			(size 0.94 0.93)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.125)
+			(net "+5V")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "b16416b9-c80e-4474-98ef-2cb4a678194d")
+		)
+		(embedded_fonts no)
+	)
+	(footprint "Package_TO_SOT_SMD:SOT-23-6"
+		(layer "F.Cu")
+		(uuid "f54e73fa-114e-4883-b73c-4d8107fa7358")
+		(at 135 105.255)
+		(descr "SOT, 6 Pin (JEDEC MO-178 Var AB https://www.jedec.org/document_search?search_api_views_fulltext=MO-178)")
+		(tags "SOT TO_SOT_SMD")
+		(property "Reference" "U1"
+			(at 0 -2 0)
+			(layer "F.SilkS")
+			(uuid "5724e14a-f03f-4151-8e5f-443d6c69596c")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Value" "TPS542025DDCR"
+			(at 0 2 0)
+			(layer "F.Fab")
+			(uuid "0cef951b-36fb-436f-aefe-72c0cdb0d193")
+			(effects
+				(font
+					(size 0.3 0.3)
+					(thickness 0.075)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps542025.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14f6433e-0910-4b3a-9de8-c3340fc31a8c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "2A, 4.5 to 30V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "159c7df5-4b8e-4789-8b5a-56b7b7e74e7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "KiLib_Generator" "package/gullwing"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9bd3a45b-52b8-4208-b1db-fa6c94a31c49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Digikey Part Number" "296-TPS542025DDCRCT-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "97506d97-2a37-4c0d-b8d1-002befbd854d")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Digikey URL" "https://www.digikey.com/en/products/detail/texas-instruments/TPS542025DDCR/28738814"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "861dc383-595b-4914-bc7c-111035cb0334")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb4f807b-d3a9-4001-ace6-718c1f19c5da")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "TPS542025DDCR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "054e1f43-06da-47ce-bb40-2642cd470eee")
+			(effects
+				(font
+					(size 1.016 1.016)
+					(thickness 0.1524)
+				)
+			)
+		)
+		(property ki_fp_filters "SOT?23*")
+		(path "/fbfb9c87-32e1-461f-a0c9-9e07e1263045")
+		(sheetname "/")
+		(sheetfile "template.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "3" "5" "1" "6" "2" "4")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -0.91 -1.56)
+			(end 0.91 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2c3423f9-3590-4609-b1c1-c37baa44578f")
+		)
+		(fp_line
+			(start -0.91 -1.51)
+			(end -0.91 -1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c0e74a28-3120-48d6-bf31-b4b22e33392d")
+		)
+		(fp_line
+			(start -0.91 1.56)
+			(end -0.91 1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "178fcf10-1727-45a3-8dff-245da4219b3a")
+		)
+		(fp_line
+			(start 0.91 -1.56)
+			(end 0.91 -1.51)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "dca75667-4ebc-497a-9a65-f8016e0f62af")
+		)
+		(fp_line
+			(start 0.91 1.51)
+			(end 0.91 1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a8a18b80-6d70-453d-86e9-d4847c8161b1")
+		)
+		(fp_line
+			(start 0.91 1.56)
+			(end -0.91 1.56)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ed6c652c-16b0-4ea0-a209-c1e27fa81a18")
+		)
+		(fp_poly
+			(pts
+				(xy -1.45 -1.51) (xy -1.69 -1.84) (xy -1.21 -1.84)
+			)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill yes)
+			(layer "F.SilkS")
+			(uuid "5bee75dc-6cc8-419a-afdb-c8847a008850")
+		)
+		(fp_line
+			(start -2.05 -1.5)
+			(end -1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "12f8f875-a691-4860-87be-dee426f9874f")
+		)
+		(fp_line
+			(start -2.05 1.5)
+			(end -2.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0e499ca6-9621-4b76-b871-dcb023951506")
+		)
+		(fp_line
+			(start -1.05 -1.7)
+			(end 1.05 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "918ae360-b172-41cf-8843-3c377080cae1")
+		)
+		(fp_line
+			(start -1.05 -1.5)
+			(end -1.05 -1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3c0cb163-ba45-4162-bc7d-ba993d55b2ba")
+		)
+		(fp_line
+			(start -1.05 1.5)
+			(end -2.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f388091b-40f5-4993-a084-3c0127601a91")
+		)
+		(fp_line
+			(start -1.05 1.7)
+			(end -1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8be7b9cf-cc82-4f2c-9514-454af2381c54")
+		)
+		(fp_line
+			(start 1.05 -1.7)
+			(end 1.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9de7cad6-eb2b-468a-955d-0cb73e5b7533")
+		)
+		(fp_line
+			(start 1.05 -1.5)
+			(end 2.05 -1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cc3d2e8e-63d2-48cc-9ac4-fa1958a6b54f")
+		)
+		(fp_line
+			(start 1.05 1.5)
+			(end 1.05 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b4ed32fe-6c20-4b7e-bf08-192c1de3614c")
+		)
+		(fp_line
+			(start 1.05 1.7)
+			(end -1.05 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7dccc829-d334-41a4-babd-fc2b12893afa")
+		)
+		(fp_line
+			(start 2.05 -1.5)
+			(end 2.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e1f0ab03-c392-473a-ac17-c50e3ba7c666")
+		)
+		(fp_line
+			(start 2.05 1.5)
+			(end 1.05 1.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3701397b-90ad-480b-b6aa-777b3f13706d")
+		)
+		(fp_poly
+			(pts
+				(xy -0.4 -1.45) (xy 0.8 -1.45) (xy 0.8 1.45) (xy -0.8 1.45) (xy -0.8 -1.05)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "92be5c94-4a4b-43f3-8420-3f3ed32349c6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 90)
+			(layer "F.Fab")
+			(uuid "e6a33e8b-29f4-4f3d-8e42-9a8d15903d9b")
+			(effects
+				(font
+					(size 0.72 0.72)
+					(thickness 0.11)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.1375 -0.95)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "GND_1")
+			(pintype "power_in")
+			(uuid "edc944cb-8cca-4126-abf5-8df2abebb510")
+		)
+		(pad "2" smd roundrect
+			(at -1.1375 0)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U1-SW)")
+			(pinfunction "SW_2")
+			(pintype "power_out")
+			(uuid "60f98b4e-d0e8-4161-be3f-8ee2c2d2e9bf")
+		)
+		(pad "3" smd roundrect
+			(at -1.1375 0.95)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+12V")
+			(pinfunction "VIN_3")
+			(pintype "power_in")
+			(uuid "53df90a3-4ed8-44f3-a713-f8f7c404d846")
+		)
+		(pad "4" smd roundrect
+			(at 1.1375 0.95)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "+5V")
+			(pinfunction "FB_4")
+			(pintype "input")
+			(uuid "4d53667c-52be-423d-92cc-483ccf76eaf4")
+		)
+		(pad "5" smd roundrect
+			(at 1.1375 0)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "unconnected-(U1-EN-Pad5)")
+			(pinfunction "EN_5")
+			(pintype "input")
+			(uuid "9d0a10a2-f819-489d-988a-f3980a0a935f")
+		)
+		(pad "6" smd roundrect
+			(at 1.1375 -0.95)
+			(size 1.325 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U1-BOOT)")
+			(pinfunction "BOOT_6")
+			(pintype "passive")
+			(uuid "124f9701-d470-4f40-bdb0-cdb5bdc23a75")
+		)
+		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-6.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(segment
+		(start 129.712 104.255)
+		(end 129.712 106.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "0abbb2dd-791f-4416-838d-66e7af27970f")
+	)
+	(segment
+		(start 133.8625 104.305)
+		(end 133.8625 99.0425)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "12fe7a31-894c-493d-a415-7080b7d1772e")
+	)
+	(segment
+		(start 133 103.4425)
+		(end 133 96.755)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "14ac1d67-f619-4fd8-95be-7e096eef6276")
+	)
+	(segment
+		(start 139 98.01)
+		(end 137 98.01)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "176d2c21-76a9-452f-84d8-d8f7d8084bd7")
+	)
+	(segment
+		(start 133 96.755)
+		(end 131.15 96.755)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "17cfb779-f763-4434-a8f6-364f3e17e7e2")
+	)
+	(segment
+		(start 129.662 114.205)
+		(end 129.712 114.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "1de2ce1e-0169-43b5-a408-a92475860afa")
+	)
+	(segment
+		(start 129.712 108.255)
+		(end 129.712 106.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "20287546-2aec-4262-b130-03e6bb75c9f7")
+	)
+	(segment
+		(start 133.8625 104.305)
+		(end 133 103.4425)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "209d23b8-e361-4c10-a784-c5a92b0f0758")
+	)
+	(segment
+		(start 129.65 100.193)
+		(end 129.712 100.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "327aefb1-8c18-46bf-a8e1-b3f4ac5aebc1")
+	)
+	(segment
+		(start 131.15 96.755)
+		(end 129.65 98.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "37badc8f-dfbe-43e8-a1de-33882fc1e567")
+	)
+	(segment
+		(start 150.94 98.01)
+		(end 149 98.01)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "388a38d9-90ff-4cc4-822d-6429f3b979a7")
+	)
+	(segment
+		(start 129.712 108.255)
+		(end 129.712 110.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "4431b685-a440-4734-8126-081296f63fda")
+	)
+	(segment
+		(start 129.712 102.255)
+		(end 129.712 104.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "4b818e53-c65b-4069-9402-d945b0b75742")
+	)
+	(segment
+		(start 149 98.01)
+		(end 147 98.01)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "85112c6b-10cf-45c6-b08b-987834891132")
+	)
+	(segment
+		(start 143 98.01)
+		(end 141 98.01)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "8a2fe4b6-9edf-428b-8048-b00a90f794a8")
+	)
+	(segment
+		(start 141 98.01)
+		(end 139 98.01)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "93060f5d-b29d-4212-b7ef-ab8714816f1e")
+	)
+	(segment
+		(start 133.8625 99.0425)
+		(end 135 97.905)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "93bbe138-5abb-4d0d-8555-9a865f7447fe")
+	)
+	(segment
+		(start 129.712 100.255)
+		(end 129.712 102.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "9f0cdcae-d945-4e5e-aa49-2414a6348298")
+	)
+	(segment
+		(start 129.65 98.255)
+		(end 129.65 100.193)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "a1b7f363-6785-4950-9869-07cdd6debf75")
+	)
+	(segment
+		(start 136.895 97.905)
+		(end 137 98.01)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "ba78dc0d-0a5c-4fc4-9153-057a98dce6d5")
+	)
+	(segment
+		(start 135 97.905)
+		(end 136.895 97.905)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "bd62a41d-8bfd-4166-bccf-fcafc0d899ef")
+	)
+	(segment
+		(start 147 98.01)
+		(end 145 98.01)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "d5aa59eb-9894-4883-a6ec-f4ef41f488e7")
+	)
+	(segment
+		(start 129.712 110.255)
+		(end 129.712 112.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "dafb9206-9c74-4e3c-a273-a06162eeb5e5")
+	)
+	(segment
+		(start 129.712 112.255)
+		(end 129.712 114.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "e811f0be-2533-487a-9fcd-d2a515755899")
+	)
+	(segment
+		(start 145 98.01)
+		(end 143 98.01)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "ed481aa7-c477-4a3e-9f8c-a6ca647690ac")
+	)
+	(segment
+		(start 152 99.755)
+		(end 151.745 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "058a993f-0426-4c9d-af5a-e6f970155cb2")
+	)
+	(segment
+		(start 150.327 113.807606)
+		(end 150.327 110.032)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "0f3b86a2-c3f2-4d6f-a5d9-dea010900dc0")
+	)
+	(segment
+		(start 143 99.5)
+		(end 141 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "1a1cb8d7-7682-4f0d-a878-062311108381")
+	)
+	(segment
+		(start 141 99.5)
+		(end 139 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "204a37cd-acb4-42d0-8f53-2855fb7df64e")
+	)
+	(segment
+		(start 149.55 109.255)
+		(end 152 106.805)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "33efc27b-e021-412c-aa5f-c6b0e33b9776")
+	)
+	(segment
+		(start 136.895 99.605)
+		(end 137 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "5136471e-6968-42ef-bc3e-3bed017c2831")
+	)
+	(segment
+		(start 149 99.5)
+		(end 147 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "6c5aebbf-4716-4e69-9f2a-e515c7347dff")
+	)
+	(segment
+		(start 152 106.805)
+		(end 152 99.755)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "7881e364-9376-48ca-98ab-4726774c0c73")
+	)
+	(segment
+		(start 150.252606 113.882)
+		(end 150.327 113.807606)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "788c306c-5d6d-40e6-b598-a28446db89d7")
+	)
+	(segment
+		(start 136.1375 109.272106)
+		(end 140.747394 113.882)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "79ce79fc-76a8-403a-8e56-7aab52df69bf")
+	)
+	(segment
+		(start 150.327 110.032)
+		(end 149.55 109.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "7dc3159d-be17-44cc-be6f-92d5c185a02f")
+	)
+	(segment
+		(start 147 99.5)
+		(end 145 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "806a6667-055f-4c18-8db9-26b035ceba0f")
+	)
+	(segment
+		(start 140.747394 113.882)
+		(end 150.252606 113.882)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "831c7b9f-18ee-4c7c-9714-a2192b8ff2fa")
+	)
+	(segment
+		(start 151.745 99.5)
+		(end 150.94 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "8d679679-af13-424e-b568-2e98a1314f63")
+	)
+	(segment
+		(start 150.94 99.5)
+		(end 149 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "8de5ce80-4674-4580-9f67-b887359c027f")
+	)
+	(segment
+		(start 145 99.5)
+		(end 143 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "9f2df8c4-5390-491c-98ae-418ce2aa333b")
+	)
+	(segment
+		(start 139 99.5)
+		(end 137 99.5)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "c52cced7-1c62-4f96-b016-57586f6add55")
+	)
+	(segment
+		(start 135 99.605)
+		(end 136.895 99.605)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "dd44dae9-b1f3-4401-91ad-03c0f01c7c3c")
+	)
+	(segment
+		(start 136.1375 106.205)
+		(end 136.1375 109.272106)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+5V")
+		(uuid "e326a2b6-8453-4b0d-878f-436ade07a25e")
+	)
+	(segment
+		(start 131.288 112.255)
+		(end 131.288 110.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "05014ee5-40c4-4298-94fb-c5f512955b7b")
+	)
+	(segment
+		(start 133.8625 106.205)
+		(end 131.338 106.205)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "287483ba-4169-4a1d-bd4f-14338f2b098b")
+	)
+	(segment
+		(start 131.288 106.255)
+		(end 131.288 104.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "3b3fb872-30c4-4604-98fd-dcaeb25af019")
+	)
+	(segment
+		(start 131.288 100.255)
+		(end 131.288 98.317)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "5f1ada56-303f-4970-a7dd-788bea096156")
+	)
+	(segment
+		(start 131.288 114.255)
+		(end 131.288 112.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "64d1c5d7-e458-4759-bd2b-aa5e6bcf44bd")
+	)
+	(segment
+		(start 133.8625 106.205)
+		(end 134 106.3425)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "6544d7a9-4ac7-44bc-8800-9e9ca1c6fd0c")
+	)
+	(segment
+		(start 131.288 110.255)
+		(end 131.288 108.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "99d0c3b0-60cf-4ee9-95dc-d87827ff2b76")
+	)
+	(segment
+		(start 131.288 104.255)
+		(end 131.288 102.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "9ee73430-1ee8-4a1e-837b-edae5947aed9")
+	)
+	(segment
+		(start 131.338 106.205)
+		(end 131.288 106.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "a7f47f3b-08fe-4d61-ba36-03325967d958")
+	)
+	(segment
+		(start 131.288 98.317)
+		(end 131.35 98.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "c10e5685-4b9f-4257-a4a5-14cb2fc25a56")
+	)
+	(segment
+		(start 131.288 108.255)
+		(end 131.288 106.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "d6a9bb00-3f93-4f7c-be6c-804207298c1b")
+	)
+	(segment
+		(start 131.288 102.255)
+		(end 131.288 100.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "+12V")
+		(uuid "e5265f8c-9ff0-46d2-be7d-05acbe5b6e2a")
+	)
+	(segment
+		(start 136.7 104.305)
+		(end 138 105.605)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-BOOT)")
+		(uuid "90f91115-68eb-4e55-bee1-e2a7be13d8d2")
+	)
+	(segment
+		(start 136.1375 104.305)
+		(end 136.7 104.305)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-BOOT)")
+		(uuid "e9ab17ff-262e-47f1-a795-5a913a10f5f2")
+	)
+	(segment
+		(start 139.5 107.305)
+		(end 141.45 109.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "121a7b2b-0fa3-4b41-9c90-1d6549ea242b")
+	)
+	(segment
+		(start 135 104.779999)
+		(end 135 104.024896)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "1a800538-d242-44c7-9e9a-4a59f9cba5b3")
+	)
+	(segment
+		(start 134.524999 105.255)
+		(end 135 104.779999)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "7276a13f-86c0-477c-a41e-d0d8ca5376b0")
+	)
+	(segment
+		(start 133.8625 105.255)
+		(end 134.524999 105.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "79b30836-090f-4279-8864-1f4fa6e752fd")
+	)
+	(segment
+		(start 137.35 103.255)
+		(end 138 103.905)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "bb3e8841-3e6c-40ee-87c4-d598180089bc")
+	)
+	(segment
+		(start 139.5 105.405)
+		(end 139.5 107.305)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "c389a7e8-9c2f-47e1-b2bf-39092df1f5ed")
+	)
+	(segment
+		(start 138 103.905)
+		(end 139.5 105.405)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "d1e18bc0-283e-496c-98dd-a6adaf2b4c99")
+	)
+	(segment
+		(start 135.769896 103.255)
+		(end 137.35 103.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "ef67a046-22cc-435e-9731-0cde79c4f45c")
+	)
+	(segment
+		(start 135 104.024896)
+		(end 135.769896 103.255)
+		(width 0.254)
+		(layer "F.Cu")
+		(net "Net-(U1-SW)")
+		(uuid "f96d853a-bc9e-4e74-a261-52239a68954a")
+	)
+	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "formulaslug_drawing_sheet.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WATKq1jAGqmmBcq8M6m0AaIKETTbn6ebwf6dMk0pY25Aq7h3Jfs3rRp28EuWT4NPANzclEB
+				CAI9ATYBhldIVCr/YrQbFzr9pRDOzUK4qsFXmq5nzjFiGXJN3Zp9kRXh3Jjx3NaDt8iXz3LRfWYZ
+				e+8iD04uLQSSVEpCUADicdHBQ3vJrLDwEILC4qJMTvJfkGCZXWRuEg01gRAVExcfLCQMNUAhQoUE
+				FJAwU84ADBEqYJCQMOACoktVIoEIFCQQmFBAo4ANDYqJR4NcmRK6FpRAAMMEDBSPBgYqhwZ5MBgO
+				XLhVMQACXAAAhwkR5DHxwWHRgTgYFxMV3t6CRIUIFSpoXOBAYaGBjCcwIGFBAoaFiSAHtKz4kIIC
+				Ey5YkGAgAwERJEw4wIIAagoNupw4sSBmMVJm5XaBBIYIBGTAQEHCgoUFJFgQABmA8ZggwOFwhHAw
+				HhWMDSREh8YDRAQPnEgjhDihk9GggYLQzJSpGTR4VFh0KDkREBYXEY0gDwoYDw2Pj09kHoICx4aK
+				xmOCccFwOBgVDosNDwoyZCIg2GBBoYEwKB6NB2E48CAcKiKwcEyQCPKoYHz4YLGBCBEOFYwyoTIt
+				eTgmHiAiIgjjw0TFYwPD8cHi8bDQcGHxcMBDwzElFQ0PjokPGR4dGBQP3jLEgQeHxgSMigbFg5cS
+				RgUNEA8KGA8HDBg0uIjgwQAxZRqRIaLBgZGB4iKCOCweEw5GBcODAwYNHmBb0xCpsGiAcDAkcMCg
+				AQgIJsjAYWJDAwIHAZeE1LqVXS85b60VFQuN6M1ERGzZz048UUmjjVOyXGqe0eYMi6zyBmsvrJuz
+				X4agp9xL/x15i97q80phk4qzmmU/616QnF06VZK4zkN2LfMs41uHyGboK6Xzpx1sVevsU2d4dmfS
+				1WQaGlrhi/F+x+JC641zOUQ4LWU/q+rwdHVILS6pmyu2UMmx+WOZkkrL/KckoUNiT5UjHbrdpZ+Y
+				hq+ZNestdWo5865HylLESUlTTPfg0VG+6PJZuZf4y58Rs5zQWRKZnRUjP753deVI2asgIVuhq9IS
+				rFKE3vG4XOXdrsvnyK4w83Y39cZ2y6Ld4qzJScI2b7s5tMQsVL+JzvDGvvd1Rle3zPlinCzmK+ey
+				RNXEwY4ZFr4chL/FV+YLntFcJbp4K6QWorNGL1XmYZY0FjWnWDYRTzZWVE4BxrNM68uwrPRyLm/C
+				0g52ptCtTtdatfwt29RaTNJY9ipErOrMqxUs+WVd6YNUZLfrtClDypCSXmZMLk1rFqQXdD2rxhpZ
+				zffatfR6neFNt5z7sq59zq0movSpzOaMcOaat5lNdKViGf2IcyXru6mbgliVviy7XNs8NGc6z2Zj
+				2b3dxm62xDvMrM3htNTq3xMR4ZU56YiDZqfEK5x8f3pOudu/Kqp03vDsbEVy4ZVcDGmKvdUiUdGy
+				U1w2+9mfE1Weza67P010hZdpLfe1phzznthm2gntllhamJ9SHRXTbKrHnCXEQseX3V0VfjKL064S
+				Zcv1FhEm2m3FWMrFZlPq/pRzSxrffdTSK0Qb0tPHnukFTYZ5v9K2Wwbphlfk+5LovyNLrHvQenYe
+				0lwlThXfzPt0rfKrAQ0eNHhQk3U5SYN3HCvZyKXI0tLmDqlYdjIylqmJd6SkabPca9FhmdV0srrM
+				LL9ysv4jrCObI7nc1Wa23tVVYpWemYW+y5wb3pHdNMRpVqVV5ouYTTyVtfRWVsZybMZ3Prb+Kx/h
+				/cIplGjXJMSXyi1E6SRsmfU01aPDGhlZc3zz82SZKqtR8UV2IV2W0mXvbNI8xivT5dBk+nU+c753
+				36vDG9Y55bFVWaKRzZjozoi/T2FNdE7Lcr2NqkQtTPPYDRqL3XaO6uhlV8XJcvV9cZqUdPvGrses
+				qXueKUSIxvb+uXzi1aEZ27rhreyGZqSkQqokKob2yyq8q/N4rMHqTz07ssNi93v7zKzKcmXPqPLm
+				RWR1K0PMEq/kZtmka+ZeGpJ/s8lqMWotj+pnOaeeE63mwxdqIdNr1v4Cg/ioAqGETkIRkSRJCsMc
+				0oIEoULtXNYDgqhQCAFNyYiIiIiIiIiIgpQkJal0KNISHEjiUkpk8+kwR2DNGbxlxClJM7Xev8KJ
+				bEgTQ8v8hlBvmlzgrlJD3sFgEXyK1dYT5L1qyBCj95sDVwdM6qhuvQnvlREh3pWDXb69cQHd2J5m
+				8l1URs0PsaaCzY1XlDK08v3MOEjETEwvjmeblVzCJFEoC0yHeHkYLMnueHzWCPFaGZ03IQ45CoBp
+				TkdN1M2hJIiLmB4FyIf4a+DTXiqY6HgZmFaOGnOqPMAAsZwSwhkBi9JMb7GfcGilZtiuj3Y9hqbj
+				bZVeFujhxAZC1TmYCdOZVVeEia6k+Qd7C+HDWCZ9PkonrybzuJGsfx9uYHyZtYDXmFWZPCi/ZCFL
+				NiIvYWwVyqrDc2oKRdhLs0wQFc1HhqqIsvIqw0paDFmyDtT6fROHDAQLro1QeBXva3YbtfV/ly77
+				GRtGvLMWGqZB6nJ/lGbDuMRu7bjv2MVi5+y0/N0FWHp2gYbt7Ivygb2Uh84+KH7rgQhGkTtkdSGD
+				7Tx3XHfJoIB9qD3GttRGBc6sJRBVXP1YEN6rY1QWmBRqkizHNeKHWn7hRWEtQAyI9ZYZ3Mvgcxaa
+				RewK3mdktFHDE4kDdNbAXpvWccRRFfiLN1WTrPAn6Uh7p9CzEf5HH25HYVCdegfqI74nAa7mhY93
+				+81T87lAThHGstPfDoEKRn/BoMd+DaAsVCtsR2LKpxnRNo9ygRcfQAI1c03ZJbD0U7hlJlzTjnym
+				KnhPGnlWpbD1GvmAuOm9D6ZcSXgbYoxHypqTWRDRTDGoVkWi5aeKMudpPsVTuiIqI/v4IED9SGmT
+				4SY1zU5wiUWAqzZ7KgEy9S7kiwJh+9sJYlFVxdN128TNVVfnoqsq2bOwqSh9UnKAvS8+26A8jH1M
+				IlTecmCplMWO/Gf2zFBUnDT1Cb1whOU0op4OuONTxYcNFNCKrSsPD07AzFOmpbv/5wIXsUoBMz0h
+				jVh5zS9tTpkZJwUn2gMHtMP1OLsTsqwwV+5tuv9FIEiN6ubAS1WktG0eAkwFBSCvJU+11rTbzCe4
+				4t2xNHDC5FYqbBYdHry4Gv4qq/XsylK2g6lxLp+9OBdf4csLSwrluvRwMK43mqQ0dLOD6zY+KLz2
+				e5YsRbPzA71cCzMupSaREUaXiS05WLHJXzbhg86Am2OTNtJhum3GFJ8HkTfHFuf+Vsi2xkDzU1Ld
+				NPk/RZD1VmQVcUHrSjL6i1sqt/+/M/gW7a/W9hlCXwbTs77iRfkGIAVj/R7OidFp/a2YgsKD/QgU
+				UOlE96Ey93Hnt5Awmorq8d0ETkM1YFrRT7bpLK3qZhhCf4klrdl/xPdq9WAy3BMBWcJKh9MMjf4q
+				xVRMCSmuSikP0usq6COAtGbrp713E+xIHQUzBREIQu9iBrwyp1V8Qiw7Di6MgGMKANNMS6GURqyo
+				GuOLOXfU70TYEJQ6HfDIF/aNYdFWYsDXrMzlEXiSgOdKkoiVPrTLJoB+Uctxn1enb2yjQGdyVcEs
+				iRpjZgyP3v70XJgqUogHNumt0o68rB+xN9dLFxKffa+EKIx1jXnXHr3K91o0AWsBrxmsosXx6nxF
+				oear3l630vsvbqYa2t2NbcR30g5S1fjwZAafUdPaDIuKcnJHToaFK+Sfh22zHzzoU2qDak7fBsPn
+				cigWFqMlrJxQPpWvEtCLs0DHBM4nUqg5OLeLO0pVtlNvPtMw102QehZ6Dg4a3mBN8WpkzbmOaDcT
+				s4qSXzo195YgLR2zpbNkty6aWRWxS5wqBC0/O1ASrTpkPHL+y3Uc9BIBoboCs7815UJeraTpL+3w
+				eyqX7G+pyGTesLBYICextgFM6Zi8UOkPJqJIDIya5Ppwo8NsV/1LmGQU10VjZ24mEVAIZW8lDdlo
+				jDKnFyyaiDBm7CHvWPkP1biR930V3tUvjXVcsmlQ0qtGkoc5RJxeOAGSIIoTaetOd9ZCAEN4yXdi
+				obQ3W2riyhEzioEnyueoLqbNRERobmBWouKSGTrWIQVvhcmzYVCgQQiva3JzR+LRwpbtC2CIWk+0
+				0Y8cpoTbXdCgL0A4qmgEvMpjC8d6sDdCcSpXOo/+VYJd3r0ffuPeUpDydgg4DkqtD7baGyw5j8O7
+				RRMQblSHMPTmnnPK0NnNAMEKM3s04kH76Xc6aa3DFRIxvs2RCL5saRHdXlh1VnhkycHcg0/3hdMy
+				YnhxiwH0Vg==|
+			)
+			(checksum "FF61DEED44DD0F8D2CC22D2144FA15DC")
+		)
+	)
+)
